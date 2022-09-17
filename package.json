@@ -6,11 +6,17 @@
   "directories": {
     "lib": "lib"
   },
-  "keywords": ["math", "quadratics"],
+  "keywords": [
+    "math",
+    "quadratics"
+  ],
   "author": "finbar",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/OneAndonlyFinbar/quadratics.js.git"
+  },
+  "dependencies": {
+    "quadratics.js": "^1.0.0"
   }
 }
