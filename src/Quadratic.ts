@@ -10,8 +10,8 @@ export class Quadratic {
    * @returns {this}
    */
   fromString(equation: string) {
-    //make sure input has a b and c terms
-
+    if(equation.match(/([+-]?\d+)x\^2([+-]?\d+)x+([+-]\s?\d+)/) === null)
+      throw new Error('Invalid equation. Must be in form ax^2+bx+c');
     this.a = parseInt(RegExp.$1);
     this.b = parseInt(RegExp.$2);
     this.c = parseInt(RegExp.$3);
