@@ -1,0 +1,16 @@
+{
+  "name": "quadratics.js",
+  "version": "1.0.0",
+  "description": "Library involving all things quadratics.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": ["math", "quadratics"],
+  "author": "finbar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+,
+  }
+}
